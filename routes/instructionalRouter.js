@@ -24,7 +24,7 @@ router.use(cors());
 // will handle any request that ends in /instructional
 router.get('/', function (req, res, next) {
     var response = [
-        "Catalog",
+        "CatalogTESTING",
         "Instructors",
         "Students",
         "Support",
